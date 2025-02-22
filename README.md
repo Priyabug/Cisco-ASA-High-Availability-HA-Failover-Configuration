@@ -11,8 +11,7 @@ In these labs, you will get hands-on experience with configuring Cisco ASA firew
 <h2>Cisco ASA Lab Setup Guide</h2>
 
 <h3>Download Required Images and Licenses</h3>
-Before you start, download the required Cisco ASA images and VMware licenses from the provided GitHub repositories:
-
+Before you start, download the required Cisco ASA images and VMware licenses:
 - **[Cisco Images for GNS3 and EVE-NG](#)**
 - **[VMware Workstation Pro 17 License Keys](#)**
 - **[VMware ESXi License Keys](#)**
