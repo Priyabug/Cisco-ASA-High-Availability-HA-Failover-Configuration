@@ -6,6 +6,8 @@ Cisco ASA (Adaptive Security Appliance) is a security device that provides firew
 In these labs, you will get hands-on experience with configuring Cisco ASA firewalls using real-world scenarios. Each lab is designed to cover specific topics, such as basic configuration, security policies, NAT, VPN, high availability, and more. By completing these labs, you will gain practical skills and knowledge that you can apply in real-world network environments.
 <br />
 
+<img src="https://github.com/hegdepavankumar/cisco-asa-firewall-training/raw/main/Courses/All%20Labs/Topologies_Image/Active%20and%20Standby%20-%20Failover_Lab.PNG" alt="Lab Topology" style="max-width: 100%;">
+
 <h2>Cisco ASA Lab Setup Guide</h2>
 
 <h3>Download Required Images and Licenses</h3>
