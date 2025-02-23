@@ -1,1 +1,52 @@
 
+# High Availability (HA) Failover Configuration between Two Cisco ASA Firewalls
+
+## Objective
+The objective of this lab is to configure High Availability (HA) failover between two Cisco ASA firewalls, ensuring redundancy and continuous availability of network services. The lab will include configuration of active and standby units with stateless and stateful failover, ACLs, ICMP inspection, routing, and interface settings.
+
+## Topology Overview
+The lab topology consists of two Cisco ASA firewalls configured in an active/standby failover setup. The following network configurations are in place:
+
+- **Inside network (LAN)**: 10.1.1.0/24
+- **Outside network (Internet)**: 11.1.1.0/24
+- **Stateful link network**: 10.3.3.0/24
+- **Stateless LAN network**: 10.2.2.0/24
+
+Each firewall has two interfaces:
+- Inside
+- Outside
+
+## Configuration Steps
+
+### 1. Basic Configuration
+- Configure the hostname of the firewalls:
+  - `ASA-Active` for the active unit.
+  - `ASA-Standby` for the standby unit.
+  
+- Assign IP addresses to the interfaces:
+  - Inside interface IP address:
+    - Active unit: `10.1.1.1/24`
+    - Standby unit: `10.1.1.2/24`
+  - Outside interface IP address:
+    - Both units: `11.1.1.1/24`
+  
+### 2. Failover Configuration
+- Enable failover and specify the failover and stateful link interfaces.
+- Configure failover IP and standby IP:
+  - Failover IP address: (choose suitable IP for failover)
+  - Standby IP address: (choose suitable IP for standby)
+  
+- Set the stateful link IP addresses:
+  - Active unit: `10.3.3.1/24`
+  - Standby unit: `10.3.3.2/24`
+
+### 3. ACL and ICMP Inspection
+- Configure access control lists (ACLs) to permit or deny traffic as required.
+- Enable ICMP inspection to allow ICMP traffic.
+
+### 4. Routing Configuration
+- Configure static routes for routing traffic between networks and to the internet.
+- Verify the routing table entries to ensure proper routing.
+
+## Conclusion
+After completing the configuration, the two Cisco ASA firewalls will be set up with HA failover, ensuring that the network remains redundant and services remain continuously available in the event of a failure of the active firewall.
