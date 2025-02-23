@@ -27,3 +27,9 @@ Follow the lab instructions provided in each lab folder. You will be guided thro
 
 ## Practice and Experiment
 Once you have completed the initial configurations, feel free to experiment with different settings and scenarios to further enhance your understanding.
+
+## Verification
+Verify failover status and synchronization between active and standby units using the show failover command.
+Test failover functionality by disconnecting interfaces or shutting down the active unit to simulate failover.
+Verify reachability of devices on the Inside, Outside, stateful link, and stateless LAN networks from both firewalls.
+
