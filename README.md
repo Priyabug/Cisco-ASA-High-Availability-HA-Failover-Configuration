@@ -11,10 +11,10 @@ In these labs, you will get hands-on experience with configuring Cisco ASA firew
 <h2>Cisco ASA Lab Setup Guide</h2>
 
 <h3>Download Required Images and Licenses</h3>
-Before you start, download the required Cisco ASA images and VMware licenses:
-- **[Cisco Images for GNS3 and EVE-NG](#)**
-- **[VMware Workstation Pro 17 License Keys](#)**
-- **[VMware ESXi License Keys](#)**
+Before you start, download the required Cisco ASA images and VMware licenses:<br>
+<b>- **[Cisco Images for GNS3 and EVE-NG](#)** </b><br>
+<b>- **[VMware Workstation Pro 17 License Keys](#)**</b><br>
+<b>- **[VMware ESXi License Keys](#)**</b>
 
 ## Set Up EVE-NG Environment
 Install and configure EVE-NG on your system following the provided instructions.
