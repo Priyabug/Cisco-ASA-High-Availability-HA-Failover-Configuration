@@ -61,8 +61,7 @@ Before you start, download the necessary Cisco ASA images and VMware licenses:
 
 ### 🔍 **Check Failover Status**  
 Run the following command to verify **failover synchronization** between the **active and standby units**:  
-```bash
-show failover
+
 ## 🔄 Test Failover Functionality  
 To simulate a **failover event**, perform the following actions:  
 
