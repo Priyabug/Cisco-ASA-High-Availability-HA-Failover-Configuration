@@ -1,0 +1,16 @@
+## Configure Access Control Lists (ACLs)
+
+
+access-list OUTSIDE_TO_DMZ extended permit tcp any host 192.168.2.10 eq 80  
+access-list OUTSIDE_TO_DMZ extended permit tcp any host 192.168.2.10 eq 443  
+access-group OUTSIDE_TO_DMZ in interface outside  
+
+
+
+## Deny All Unwanted Traffic from Outside
+
+
+access-list OUTSIDE_TO_DMZ extended deny ip any any  
+access-group OUTSIDE_TO_DMZ in interface outside  
+
+This ensures that only explicitly allowed traffic is permitted.
