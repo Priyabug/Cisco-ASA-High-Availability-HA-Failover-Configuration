@@ -1,0 +1,20 @@
+Enable ICMP Inspection
+
+Step 1: Create a Policy Map for ICMP Inspection
+
+class-map ICMP_TRAFFIC
+ match default-inspection-traffic
+
+
+Step 2: Apply the Inspection to the Global Policy
+
+policy-map global_policy
+ class ICMP_TRAFFIC
+  inspect icmp
+
+Step 3: Apply the Policy Map to the Service Policy
+
+service-policy global_policy global
+
+
+Now, ICMP replies will be allowed, and network diagnostics (like ping and traceroute) will work correctly.
