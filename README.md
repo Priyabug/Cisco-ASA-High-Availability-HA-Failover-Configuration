@@ -15,7 +15,8 @@ By completing these labs, you will develop **practical skills and in-depth knowl
 ---
 
 ### **🔧 Lab Topology**  
-![image](https://github.com/user-attachments/assets/90a5008d-94f7-435c-8642-c734c824d101)
+![image](https://github.com/user-attachments/assets/c45cf340-f14d-4bc6-a2ce-efca03a0d391)
+
 
 
 
