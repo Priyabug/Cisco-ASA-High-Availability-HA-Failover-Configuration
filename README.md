@@ -15,7 +15,9 @@ By completing these labs, you will develop **practical skills and in-depth knowl
 ---
 
 ### **🔧 Lab Topology**  
-![Lab Topology](https://github.com/hegdepavankumar/cisco-asa-firewall-training/raw/main/Courses/All%20Labs/Topologies_Image/Active%20and%20Standby%20-%20Failover_Lab.PNG)  
+![image](https://github.com/user-attachments/assets/90a5008d-94f7-435c-8642-c734c824d101)
+
+
 
 ---
 
