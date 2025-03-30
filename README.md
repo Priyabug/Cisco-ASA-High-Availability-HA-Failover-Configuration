@@ -21,6 +21,21 @@ By completing these labs, you will develop **practical skills and in-depth knowl
 
 ---
 
+# **Cisco ASA Firewall Lab Components**
+
+## 🔥 **Firewall & Networking Devices**
+- **🛡️ Cisco ASA Firewall** (Active/Standby for HA)
+- **🌍 Core Router** (Internet Simulation)
+- **🚀 Edge Router** (Connected to ISP/Outside Network)
+- **🔄 Switch** (For Internal LAN Connectivity)
+
+## 💻 **End Devices**
+- **🖥️ PC Clients** (Inside, Outside, and DMZ Zones)
+
+## ⚙️ **Virtualization Platform**
+- **📦 EVE-NG or GNS3** (For Virtual Lab Setup)
+
+
 ## 🚀 Cisco ASA Lab Setup Guide  
 
 ### 🔹 **Download Required Images and Licenses**  
